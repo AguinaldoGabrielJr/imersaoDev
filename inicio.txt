@@ -1,5 +1,9 @@
-<!DOCTYPE html> 
+<h1>Calculadora<h1>
 
+var valorEmDolar = 30;
+var cotacaoDolar = 5.32;
 
-<h1>Teste<h1>
-<h2>Teste<h2>
+var cotacaoReal = cotacaoDolar * valorEmDolar;
+cotacaoReal = cotacaoReal.toFixed(2);
+
+alert("R$ " + cotacaoReal);
